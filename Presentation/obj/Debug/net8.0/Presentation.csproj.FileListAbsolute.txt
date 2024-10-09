@@ -1,0 +1,17 @@
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Presentation.deps.json
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Presentation.dll
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Presentation.pdb
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Domain.dll
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\mgomes\source\CollectionScheduling\Presentation\bin\Debug\net8.0\Domain.pdb
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.csproj.CopyComplete
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.dll
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\refint\Presentation.dll
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\Presentation.pdb
+C:\Users\mgomes\source\CollectionScheduling\Presentation\obj\Debug\net8.0\ref\Presentation.dll
