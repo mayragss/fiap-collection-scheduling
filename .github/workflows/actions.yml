@@ -79,6 +79,17 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Install Docker
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y docker.io
+        sudo systemctl start docker
+        sudo systemctl enable docker
+
+    - name: Install Docker Compose
+      run: |
+        sudo apt-get install -y docker-compose
+
     - name: Deploy to Staging
       run: |
         docker-compose -f docker-compose.yml up -d --build
@@ -91,6 +102,17 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+
+    - name: Install Docker
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y docker.io
+        sudo systemctl start docker
+        sudo systemctl enable docker
+
+    - name: Install Docker Compose
+      run: |
+        sudo apt-get install -y docker-compose
 
     - name: Deploy to Production
       run: |
