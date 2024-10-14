@@ -8,6 +8,8 @@ on:
     branches:
       - main
   workflow_dispatch: # Permite disparar manualmente o pipeline para deploy em produção
+    branches:
+        - main # Define que pode ser disparado manualmente na branch main
 
 jobs:
   build_and_test:
