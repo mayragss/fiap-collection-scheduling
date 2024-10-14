@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  app:
+    image: mgomesxs/collection-scheduling-api:latest
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Staging
