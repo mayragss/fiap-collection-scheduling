@@ -63,7 +63,7 @@ jobs:
 
     - name: Set up Docker Compose
       run: |
-        docker-compose -f docker-compose.staging.yml up -d --build
+        docker compose -f docker-compose.staging.yml up -d --build
 
   deploy_production:
     runs-on: ubuntu-latest
@@ -76,4 +76,4 @@ jobs:
 
     - name: Set up Docker Compose for Production
       run: |
-        docker-compose -f docker-compose.prod.yml up -d --build
+        docker compose -f docker-compose.prod.yml up -d --build
