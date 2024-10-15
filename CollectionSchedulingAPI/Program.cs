@@ -16,6 +16,9 @@ builder.Services.AddScoped<ICollectionScheduleDbContext, CollectionScheduleDbCon
 
 var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"]);
 
+builder.WebHost.UseUrls("http://*:8080");
+
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = "JwtBearer";
@@ -83,9 +86,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CollectionSchedulling v1"));
 }
 
-app.UseHttpsRedirection();
 
 app.UseRouting();
+
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path == "/")
+    {
+        context.Response.Redirect("/swagger");
+        return; 
+    }
+    await next();
+});
 
 app.UseAuthentication();
 app.UseAuthorization();
